@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <script type="text/javascript">
+            var originUrl = window.location.href;
+            var toUrl = "http://windup.cn";
+            var index = originUrl.indexOf("?");
+            if (index < originUrl.length - 1){
+                toUrl += "?"+originUrl.substr(index + 1);
+            }
+            window.location.href = toUrl;
+    </script>
+</head>
+</html>
